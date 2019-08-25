@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#section1{
+    background-size: cover;
+    background-image: url(img.jpg);
+    height: 100vh;
+    background-position: center;
+    opacity: 1.0;
+}
+
+#section2{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img2.jpg);
+    height: 100vh;
+    background-position: center;
+}
+.logo{
+    font-family: "Allerta Stencil", Sans-serif;
+    float: left;
+    color: white;
+    margin-top:10px;
+    margin-left: 20px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size:15px;
+}
+
+.main-nav li a:hover{
+    color: #fff11f
+}
+
+.sec-2-head{
+    text-align: center;
+    font-family: "Allerta Stencil", Sans-serif;
+    color: white;
+    padding: 20px;
+    margin-top:2px;
+    font-size: 22px;
+}
